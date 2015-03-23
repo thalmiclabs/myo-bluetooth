@@ -156,7 +156,7 @@ typedef enum {
 
 /// Header that every command begins with.
 typedef struct MYOHW_PACKED {
-    uint8_t command;        ///< Command to send. See myohw_control_command_t.
+    uint8_t command;        ///< Command to send. See myohw_command_t.
     uint8_t payload_size;   ///< Number of bytes in payload.
 } myohw_command_header_t;
 MYOHW_STATIC_ASSERT_SIZED(myohw_command_header_t, 2);

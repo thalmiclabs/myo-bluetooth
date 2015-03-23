@@ -174,7 +174,7 @@ typedef enum {
     myohw_imu_mode_send_data   = 0x01, ///< Send IMU data streams (accelerometer, gyroscope, and orientation).
     myohw_imu_mode_send_events = 0x02, ///< Send motion events detected by the IMU (e.g. taps).
     myohw_imu_mode_send_all    = 0x03, ///< Send both IMU data streams and motion events.
-    myohw_imu_mode_send_raw    = 0x04, ///< Send raw IMU data streams, unprocessed by InvenSense.
+    myohw_imu_mode_send_raw    = 0x04, ///< Send raw IMU data streams.
 } myohw_imu_mode_t;
 
 /// Classifier modes.

@@ -143,8 +143,6 @@ static const uint16_t myohw_firmware_version_minor = MYOHW_FIRMWARE_VERSION_MINO
 /// Kinds of commands.
 typedef enum {
     myohw_command_set_mode               = 0x01, ///< Set EMG and IMU modes. See myohw_command_set_mode_t.
-    myohw_command_set_mode_custom        = 0x02, ///< Set EMG and IMU modes with custom parameters.
-                                                 ///< See myohw_command_set_mode_custom_t.
     myohw_command_vibrate                = 0x03, ///< Vibrate. See myohw_command_vibrate_t.
     myohw_command_deep_sleep             = 0x04, ///< Put Myo into deep sleep. See myohw_command_deep_sleep_t.
     myohw_command_vibrate2               = 0x07, ///< Extended vibrate. See myohw_command_vibrate2_t.

@@ -56,7 +56,7 @@ typedef enum {
 
     ImuDataService                = 0x0002, ///< IMU service
     IMUDataCharacteristic         = 0x0402, ///< See myohw_imu_data_t. Notify-only characteristic.
-    MotionEventCharacteristic     = 0x0a02, ///< Motion event data. Indicate-only characteristic.
+    MotionEventCharacteristic     = 0x0502, ///< Motion event data. Indicate-only characteristic.
 
     ClassifierService             = 0x0003, ///< Classifier event service.
     ClassifierEventCharacteristic = 0x0103, ///< Classifier event data. Indicate-only characteristic. See myohw_pose_t.
